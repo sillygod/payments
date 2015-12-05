@@ -27,4 +27,4 @@ def direct_to_pay(request, token):
 
     context['form'] = form
 
-    return render(request, 'payments/direct_to_pay.html', context)
+    return render(request, 'payments_extend/direct_to_pay.html', context)
