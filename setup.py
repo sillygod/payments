@@ -15,7 +15,7 @@ PACKAGES = [
 ]
 
 REQUIREMENTS = [
-
+    'django-payments',
 ]
 
 
@@ -25,8 +25,8 @@ setup(
     author_email="sillygod@livemail.tw",
     description="django payment extension",
     version="0.1.0",
-    url='',
+    url='https://github.com/sillygod/payments',
     packages=PACKAGES,
-    install_requires=,
+    install_requires=REQUIREMENTS,
     include_package_data=True,
 )
